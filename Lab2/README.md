@@ -321,7 +321,7 @@ matrix([[ 8.33333337e-02],
         [-3.44910748e+02]])
 ```
 
-![]([Lab2/seidel_method.png](https://github.com/Grumpy-cloud/CoMath/blob/master/Lab2/seidel_method.png))
+![](https://github.com/Grumpy-cloud/CoMath/blob/master/Lab2/seidel_method.png)
 
 ## Метод Якоби
 
@@ -428,7 +428,7 @@ matrix([[ 8.33333333e-02],
         [-3.44910747e+02]])
 ```
 
-![]([Lab2/jacobi_method.png](https://github.com/Grumpy-cloud/CoMath/blob/master/Lab2/jacobi_method.png))
+![](https://github.com/Grumpy-cloud/CoMath/blob/master/Lab2/jacobi_method.png)
 
 ## Метод верхней релаксации
 
@@ -535,4 +535,4 @@ matrix([[ 8.33333337e-02],
         [-3.44910748e+02]])
 ```
 
-![]([Lab2/upper_relaxation_method.png](https://github.com/Grumpy-cloud/CoMath/blob/master/Lab2/upper_relaxation_method.png))
+![](https://github.com/Grumpy-cloud/CoMath/blob/master/Lab2/upper_relaxation_method.png)
