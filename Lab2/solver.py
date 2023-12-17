@@ -5,7 +5,7 @@ import numpy as np
 
 class MatrixSolver:
     @staticmethod
-    def _calculate_A_and_f_from_matrix_coefficients(
+    def _pick_A_and_f_from_whole_matrix(
             matrix: np.matrix
     ) -> Tuple[np.matrix, np.matrix]:
         n = matrix.shape[0]
@@ -27,7 +27,7 @@ class MatrixSolver:
             matrix: np.matrix
     ) -> None:
         self._matrix = matrix
-        self._A, self._f = self._calculate_A_and_f_from_matrix_coefficients(matrix)
+        self._A, self._f = self._pick_A_and_f_from_whole_matrix(matrix)
 
     def _calculate_difference(
             self,

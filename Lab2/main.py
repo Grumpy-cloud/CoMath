@@ -27,7 +27,6 @@ def create_matrix() -> np.matrix:
     a = 1
     b = 10
     c = 1
-    p = 1
 
     matrix = np.matrix(np.zeros((n, n + 1)))
 
